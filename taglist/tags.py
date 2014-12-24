@@ -3,10 +3,6 @@ import os
 from pelican import signals
 
 
-import os
-import json
-from pelican import signals
-
 """
 Creates a folder in your Pelican content folder called "json"
 and createa  file called "tags.json"
