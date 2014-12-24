@@ -8,8 +8,8 @@ Returns a JSON file in `<content_path>/json/latest_url.json`
 
 ```JSON
 {
-	'url': 'full url to post',
-	'title': 'Title of the post'
+	"url": "full url to post",
+	"title": "Title of the post"
 }
 ```
 
