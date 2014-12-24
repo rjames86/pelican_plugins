@@ -4,7 +4,7 @@ These are the [Pelican][pelican] plugins that I've written for my blogs.
 
 ## Latest URL ##
 
-Returns a JSON file in `<content_path>/json/latest_url.json`
+Creates a JSON file  `<content_path>/json/latest_url.json`
 
 ```JSON
 {
@@ -13,5 +13,18 @@ Returns a JSON file in `<content_path>/json/latest_url.json`
 }
 ```
 
+## Tags List ##
+
+Creates a JSON file  `<content path>/json/tags.json` 
+
+```JSON
+{
+	"tags": [
+		"list",
+		"of",
+		"tags"
+	]
+}
+```
 
 [pelican]: http://blog.getpelican.com
