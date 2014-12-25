@@ -6,6 +6,8 @@ These are the [Pelican][pelican] plugins that I've written for my blogs.
 
 Creates a JSON file  `<content_path>/json/latest_url.json`
 
+*Note:* You will need to add the 'json' folder to your static paths. See [here][staticpath] under `STATIC_PATHS` for more info.
+
 ```JSON
 {
 	"url": "full url to post",
@@ -16,6 +18,8 @@ Creates a JSON file  `<content_path>/json/latest_url.json`
 ## Tags List ##
 
 Creates a JSON file  `<content path>/json/tags.json` 
+
+*Note:* You will need to add the 'json' folder to your static paths. See [here][staticpath] under `STATIC_PATHS` for more info.
 
 ```JSON
 {
@@ -28,3 +32,4 @@ Creates a JSON file  `<content path>/json/tags.json`
 ```
 
 [pelican]: http://blog.getpelican.com
+[staticpath]: http://docs.getpelican.com/en/3.5.0/settings.html
