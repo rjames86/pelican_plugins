@@ -8,10 +8,11 @@ If an image has a title tag, the `<img>` tag will be wrapped in a `<figure>` tag
     
 
 Results in 
-
-  <figure class="image">
+```
+<figure class="image">
     <img alt="My Image" src="www.mysite.com/images/my_image.jpg" title="My Caption Here">
     <figcaption>My Caption Here</figcaption>
-  </figure>
+</figure>
+```
   
   
